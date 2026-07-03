@@ -1,6 +1,6 @@
 cask "cli-manager" do
-  version "1.2.3"
-  sha256 "d7597dcfb55da5d7c1aaa9b54d23ff35ab2de77ddeb365e3d8a70ac593adf5a5"
+  version "1.2.4"
+  sha256 "bff73d9e02858f22c81189ec1149f5e135fae03d696a17555c4f875a6e680e59"
 
   url "https://github.com/dark-hxx/CLI-Manager/releases/download/V#{version}/CLI-Manager_#{version}_aarch64.dmg"
   name "CLI Manager"
