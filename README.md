@@ -21,6 +21,7 @@ brew upgrade       # upgrades everything
 
 | Cask | Description | Source |
 |------|------------|--------|
+| `bilisum` | AI video summarizer and knowledge base tool for Bilibili, YouTube and local videos | [lycohana/BiliSum](https://github.com/lycohana/BiliSum) |
 | `cli-manager` | AI CLI workflow manager for Claude Code / Codex CLI | [dark-hxx/CLI-Manager](https://github.com/dark-hxx/CLI-Manager) |
 
 ## Adding a New App
