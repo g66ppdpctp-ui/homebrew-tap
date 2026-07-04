@@ -9,7 +9,7 @@ Personal [Homebrew](https://brew.sh) tap for macOS applications built from sourc
 brew tap g66ppdpctp-ui/tap
 
 # Install an app
-brew install --cask cli-manager
+brew install --cask codeisland
 
 # Check for updates
 brew update        # this will pull your tap too
@@ -21,6 +21,7 @@ brew upgrade       # upgrades everything
 
 | Cask | Description | Source |
 |------|------------|--------|
+| `codeisland` | Real-time AI coding agent status panel for macOS Dynamic Island (Notch) — auto-built fork | [g66ppdpctp-ui/CodeIsland](https://github.com/g66ppdpctp-ui/CodeIsland) |
 | `bilisum` | AI video summarizer and knowledge base tool for Bilibili, YouTube and local videos | [lycohana/BiliSum](https://github.com/lycohana/BiliSum) |
 | `cli-manager` | AI CLI workflow manager for Claude Code / Codex CLI | [dark-hxx/CLI-Manager](https://github.com/dark-hxx/CLI-Manager) |
 
@@ -100,5 +101,5 @@ brew upgrade --cask your-app-name
 
 ## Notes
 
-- **Intel Mac users**: Change `aarch64` to `x86_64` in the URL (if the project provides an Intel build).
-- **Unsigned apps**: Since these apps aren't Apple-notarized, macOS may still show a Gatekeeper warning on first launch. Run `xattr -cr /Applications/AppName.app` to bypass.
+- **Unsigned apps**: These apps aren't Apple-notarized. macOS may show a Gatekeeper warning on first launch. Right-click → Open, or run `xattr -cr /Applications/AppName.app`.
+- **Auto-updates**: `codeisland` cask is automatically updated via GitHub Actions when upstream releases a new version. Other casks updated manually.
