@@ -1,3 +1,4 @@
+| `rclick` | macOS Finder right-click enhancement | [wflixu/RClick](https://github.com/wflixu/RClick) |
 # Personal Homebrew Tap
 
 Personal [Homebrew](https://brew.sh) tap for macOS applications built from source or distributed as pre-compiled binaries.
