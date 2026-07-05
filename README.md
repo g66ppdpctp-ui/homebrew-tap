@@ -9,6 +9,7 @@ Personal [Homebrew](https://brew.sh) tap for macOS applications built from sourc
 brew tap g66ppdpctp-ui/tap
 
 # Install an app
+| `rclick` | macOS Finder right-click enhancement | [wflixu/RClick](https://github.com/wflixu/RClick) |
 brew install --cask codeisland
 
 # Check for updates
@@ -22,7 +23,7 @@ brew upgrade       # upgrades everything
 | Cask | Description | Source |
 |------|------------|--------|
 | `codeisland` | Real-time AI coding agent status panel for macOS Dynamic Island (Notch) — auto-built fork | [g66ppdpctp-ui/CodeIsland](https://github.com/g66ppdpctp-ui/CodeIsland) |
-| `rclick` | macOS Finder right-click enhancement | [wflixu/RClick](https://github.com/wflixu/RClick)| `bilisum` | AI video summarizer and knowledge base tool for Bilibili, YouTube and local videos | [lycohana/BiliSum](https://github.com/lycohana/BiliSum) |
+| `bilisum` | AI video summarizer and knowledge base tool for Bilibili, YouTube and local videos | [lycohana/BiliSum](https://github.com/lycohana/BiliSum) |
 | `cli-manager` | AI CLI workflow manager for Claude Code / Codex CLI | [dark-hxx/CLI-Manager](https://github.com/dark-hxx/CLI-Manager) |
 
 ## Adding a New App
